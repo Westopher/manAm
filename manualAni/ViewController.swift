@@ -10,6 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var image: UIImageView!
+    
+    @IBAction func next(_ sender: Any) {
+        
+        image.image = UIImage(named: "frame_1_delay-0.1s.gif")
+        
+    
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
